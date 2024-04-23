@@ -1,0 +1,21 @@
+<div class="px-10">
+    <h1 class="text-lg font-bold">About</h1>
+    <p class="text-sm">Lorem ipsum dolor sit, amet consectetur adipisicing elit. Dolorem cum accusantium et eos eveniet, maiores accusamus illum rerum ipsam eum quaerat deleniti nulla totam, quidem nemo repellat dolorum omnis laboriosam.</p>
+    <p class="text-sm">Numero de clientes<app-counter [duration]="duration()" [message]="message()" *ngIf="duration() > 0"></app-counter></p>
+
+</div>
+<div>
+    <app-wave-audio audioUrl="../../../assets/dg.mp3"></app-wave-audio>
+</div>
+
+
+
+<!-- <p>
+    <input type="number" [value]="duration()" (change)="changeDuration($event)">
+</p>
+<p>
+    <input type="text" [value]="message()" (change)="changeMessage($event)">
+</p>
+<p>>
+    <app-counter  [duration]="duration()" [message]="message()" *ngIf="duration() > 0"/>
+</p> -->
